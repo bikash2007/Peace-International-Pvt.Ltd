@@ -1,0 +1,9 @@
+# public/robots.txt
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.peaceintl.com.np/sitemap.xml
+
+# Disallow admin or sensitive areas (if any)
+# Disallow: /admin/
