@@ -24,7 +24,7 @@ const Navbar = () => {
           <div className="flex items-center flex-shrink-0">
             <Link to="/" className="flex items-center group">
               <img
-                className="h-8 w-auto sm:h-10 md:h-20"
+                className="h-8 w-auto sm:h-10 md:h-32"
                 src="/logo.png"
                 alt="Peace International"
               />
@@ -56,8 +56,6 @@ const Navbar = () => {
             ))}
           </div>
 
-         
-
           {/* Mobile menu button */}
           <div className="lg:hidden flex items-center">
             <button
@@ -75,9 +73,11 @@ const Navbar = () => {
         </div>
 
         {/* Mobile Navigation */}
-        <div className={`lg:hidden transition-all duration-300 ease-in-out ${
-          isOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'
-        } overflow-hidden`}>
+        <div
+          className={`lg:hidden transition-all duration-300 ease-in-out ${
+            isOpen ? "max-h-screen opacity-100" : "max-h-0 opacity-0"
+          } overflow-hidden`}
+        >
           <div className="border-t border-gray-200">
             <div className="px-2 pt-2 pb-3 space-y-1 bg-white">
               {navigation.map((item) => (
@@ -94,7 +94,7 @@ const Navbar = () => {
                   {item.name}
                 </Link>
               ))}
-              
+
               {/* Mobile CTA */}
               <div className="pt-3 px-3">
                 <Link
