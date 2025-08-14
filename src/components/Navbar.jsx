@@ -24,7 +24,7 @@ const Navbar = () => {
           <div className="flex items-center flex-shrink-0">
             <Link to="/" className="flex items-center group">
               <img
-                className="h-8 w-auto sm:h-10 md:h-32"
+                className="h-14 w-auto sm:h-10 md:h-36"
                 src="/logo.png"
                 alt="Peace International"
               />
